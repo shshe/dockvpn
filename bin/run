@@ -32,6 +32,8 @@ persist-key
 persist-tun
 push "dhcp-option DNS 8.8.8.8"
 push "dhcp-option DNS 8.8.4.4"
+push "dhcp-option DNS 10.x.x.x"
+redirect-gateway
 
 proto tcp-server
 port 443
